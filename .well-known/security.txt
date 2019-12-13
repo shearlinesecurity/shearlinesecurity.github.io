@@ -1,0 +1,5 @@
+# If you would like to report a security issue, drop me an
+# email at the address listed below
+Contact: mailto:security@shearlinesecurity.com
+Encryption: https://shearlinesecurity.com/pgp_key.txt
+

@@ -6,6 +6,102 @@
 </head>
 <body>
   <h1>ShearLine Security</h1>
+  <div>
+    <button onclick="openTab('Home')">Home</button>
+    <button onclick="openTab('About')">About</button>
+    <button onclick="openTab('Contact')">Contact</button>
+  </div>
+  <div id="Home" class="tabs">
+    <h2>Home</h2>
+    <p>Providing comprehensive security auditing and testing</p>
+  </div>
+  <div id="About" class="tabs" style="display:none">
+    <h2>About</h2>
+    <p>ShearLine Security is designed from Day 1 to be all things security. We are a nimble group able to handle penetration testing for your company, as well as evaluating your product security.</p>
+    <p>Some of the services that we offer:</p>
+    <ul>
+      <li>Network perimiter testing</li>
+      <li>Product security testing</li>
+      <li>Mobile app security testing</li>
+      <li>Desktop app security testing</li>
+      <li>Device driver / OS level security testing</li>
+      <li>Firmware (UEFI, BMC, device firmware) security testing</li>
+      <li>Phishing and spear phishing campaigns</li>
+      <li>Reverse engineering / malware</li>
+    </ul>
+  </div>
+  <div id="Contact" class="tabs" style="display:none">
+    <h2>Contact Us</h2>
+    <div>Contact us today to see how we can help secure your products and customers:
+    <p><a href="mailto:demo@shearlinesecurity.com?Subject=Security%20Demo%20Request">demo@shearlinesecurity.com</a></p>
+    </div>
+    <div>
+      If you'd like to use PGP:
+      <pre id="PGPKey" style="max-width:36em">-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=3SlP
+-----END PGP PUBLIC KEY BLOCK-----</pre>
+      <button onclick="copyPGPKey()">Copy To Clipboard</button>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function openTab(tabName) {
+      var i;
+      var x = document.getElementsByClassName("tabs");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    }
+    function copyPGPKey() {
+      var content = document.getElementById('PGPKey').textContent
+      var textArea = document.createElement('textarea');
+      textArea.textContent = content
+      document.body.append(textArea);
+
+      textArea.select()
+      textArea.setSelectionRange(0, 99999);
+      document.execCommand('copy');
+      textArea.parentNode.removeChild(textArea);
+    }
+  </script>
   <div align="center">Copyright 2019 ShearLine Security</div>
 </body>
 </html>
